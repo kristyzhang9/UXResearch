@@ -61,10 +61,6 @@ h2{
 
 }
 
-}
-.btn1:hover,.btn2:hover,.btn3:hover{
-  color: #ffffff;
-}
 
 .btn::before{
   content: "";
