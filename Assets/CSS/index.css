@@ -61,7 +61,6 @@ h2{
   overflow: hidden;
 }
 
-
 .btn::before{
   content: "";
   position: absolute;

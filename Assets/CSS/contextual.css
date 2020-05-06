@@ -1,14 +1,14 @@
 body {
+  margin: 0;
   background-image: url("../Images/bluebackground.jpg");
   background-size: cover;
-  font-family: optima
+  font-family: optima;
   background-position: center center;
 }
 
 .topnav {
   overflow: hidden;
   background-color: #FFC0CB;
-  font-family: optima;
 }
 
 .topnav a {
@@ -30,6 +30,18 @@ body {
   color: Black;
 }
 
+.button {
+  margin-top: 30px; 
+  background-color: #FFC0CB;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
 h1 {
   color: #FFC0CB;
   margin-top: 30px;
@@ -40,7 +52,27 @@ h1 {
   font-family: optima
 }
 
+.col-md-12 {
+  float: left;
+  font-size: 36px;
+  padding-top: 30px;
+  text-align: center;
+  padding-right: 80px;
+  padding-left: 80px;
+  font-family: optima
+}
+
+.col-md-6 {
+  font-size: 32px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: optima
+}
+
+
 h2{
+  padding-top: 30px;
+  margin-top: 30px;
   color: #FFC0CB;
   text-align: center;
   font-size: 40px;
@@ -60,44 +92,23 @@ h3{
 }
 
 
-.col-md-12 {
-  float: left;
-  font-size: 36px;
-  padding-top: 30px;
-  padding-right: 80px;
-  padding-left: 80px;
-  font-family: optima
-
-}
-
-
-.col-md-9 {
-  font-size: 30px;
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 30px;
-  font-family: optima;
-  background-image: url("bluebackground.jpg")
-}
-
-
 .bottomhalf {
-  padding-top: 20px;
-  margin-top: 20px;
+  padding-top: 100px;
+  margin-top: 100px;
   background:#FFF0F5;
 }
 
 
-.source {
-  font-size: 22px;
+.tips {
+  background-image: url("bluebackground.jpg");
+  margin-top: 30px;
+  font-size: 30px;
   padding-top: 30px;
-  padding-right: 30px;
+  padding-right: 80px;
   padding-bottom: 50px;
-  padding-left: 30px;
+  padding-left: 80px;
   font-family: optima
 }
-
 
 
 

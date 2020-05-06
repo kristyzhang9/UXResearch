@@ -5,70 +5,87 @@
 	<link rel = "stylesheet" type = "text/css" href = "../Assets/CSS/methods.css">
 	<script src="../Assets/JS/finalproject.js"></script>
 	<script>
-  	function flipcard(url) {
+    function flipcard1(url) {
     window.location = url;
-	}
+	   }
+  </script>
+
+  <script>
+    function flipcard2(url) {
+    window.location = url;
+    }
+  </script>
+
+  <script>
+    function flipcard3(url) {
+    window.location = url;
+    }
   </script>
 
 </head>
 
 <body>
 
+<!--nav bar-->
+  <div class="topnav">
+    <a href="../index.html">Home</a>
+    <a href="../WhatIsUXResearch/whatisit.html">What is it?</a>
+    <a class="active" href="#Methods">Methods</a>
+    <a href="../NextSteps/nextsteps.html">Next Steps</a>
+  </div>
 
-<div class="topnav">
-  <a href="../index.html">Home</a>
-  <a href="../WhatIsUXResearch/whatisit.html">What is it?</a>
-  <a class="active" href="#Methods">Methods</a>
-   <a href="../NextSteps/nextsteps.html">Next Steps</a>
-</div>
+<!--method 1-->
 
+  <div class=container>
 
-<div class=container>
-
-  <div class="row">
-    <div class="col-md-4">
-      <div class="flip-card1">
-        <div class="flip-card-inner1">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="flip-card1">
+         <div class="flip-card-inner1">
           <div class="flip-card-front1">
-           <h1> Semi-structured Interview</h1>
+            <h1> Semi-structured Interview</h1>
           </div>
-          <div class="flip-card-back1" onclick = "flipcard('semi-structured.html')">
-           <h1>Qualitative</h1>
-          <p>exploration, testing assumptions, relationship building</p>
+          <div class="flip-card-back1" onclick = "flipcard1('semi-structured.html')">
+             <h1>Qualitative</h1>
+            <p>exploration, testing assumptions, relationship building</p>
+          </div>
+         </div>
         </div>
+      </div>
+  
+  <!--method 2-->
+
+      <div class="col-md-4">
+        <div class="flip-card2">
+         <div class="flip-card-inner2">
+           <div class="flip-card-front2">
+             <h1> Contextual Inquiry</h1>
+           </div>
+           <div class="flip-card-back2" onclick = "flipcard2('contextual.html')">
+             <h1>Qualitative</h1>
+             <p>idea generation, exploration</p>
+           </div>
+         </div>
+        </div>
+      </div>
+
+<!--method 3-->
+      <div class="col-md-4">
+        <div class="flip-card3">
+          <div class="flip-card-inner3">
+           <div class="flip-card-front3">
+             <h1> Think-Aloud Protocol </h1>
+           </div>
+           <div class="flip-card-back1" onclick = "flipcard3('TAP.html')">
+             <h1>Qualitative</h1>
+             <p>usability, exploratoration, competitor analysis, testing products</p>
+           </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-</div>
-  <div class="col-md-4">
-      <div class="flip-card2">
-       <div class="flip-card-inner2">
-         <div class="flip-card-front2">
-           <h1> Contextual Inquiry</h1>
-         </div>
-      <div class="flip-card-back2" onclick = "gotocart('contexualinquiry.html')">
-      <h1>Qualitative</h1>
-      <p>idea generation, Exploration</p>
-      </div>
-  </div>
-</div>
-</div>
-
-<div class="col-md-4">
-  <div class="flip-card3">
-    <div class="flip-card-inner3">
-      <div class="flip-card-front3">
-        <h1> Surveys </h1>
-      </div>
-      <div class="flip-card-back1" onclick = "gotocart('semi-structured.html')">
-       <h1>Quantitative</h1>
-        <p>exploration, high representation, low costs</p>
-      </div>
-  </div>
-</div>
-</div>
-
-</div>
-</div>
 
 </body>
 
